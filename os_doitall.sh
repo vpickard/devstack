@@ -14,7 +14,7 @@ sleep 1
 sleep 1
 /opt/tools/os_addl2gw.sh
 sleep 5
-/opt/tools/os_addvmssr.sh
+#/opt/tools/os_addvmssr.sh
 #sleep 5
 #/opt/tools/os_addnet1.sh
 #sleep 5

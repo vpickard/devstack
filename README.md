@@ -1,2 +1,4 @@
-# devstack
-Openstack devstack - mainly some scripts in tools
+odl_tools
+=========
+
+Tools and scripts used with OpenDaylight and OpenStack.
