@@ -3,7 +3,7 @@
 vmip=$1
 
 if [[ $vmip == 10.100.5.* ]]; then
-    net="vx-net"
+    net="multinet"
 elif [[ $vmip == 10.100.6.* ]]; then
     net="vx-net1"
 else

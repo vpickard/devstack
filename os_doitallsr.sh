@@ -8,14 +8,14 @@ sleep 1
 sleep 1
 #/opt/tools/os_addagg.sh
 sleep 1
-/opt/tools/os_addnet.sh
+/opt/tools/os_addnetsr.sh
 sleep 1
 /opt/tools/os_createimage.sh
 sleep 1
-/opt/tools/os_createsecuritygroups.sh
-sleep 1
-/opt/tools/os_addvms.sh
+/opt/tools/os_addl2gw.sh
 sleep 5
+#/opt/tools/os_addvmssr.sh
+#sleep 5
 #/opt/tools/os_addnet1.sh
 #sleep 5
 #/opt/tools/os_addvms1.sh
