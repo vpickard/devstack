@@ -1,5 +1,5 @@
 #!/bin/bash
 
-neutron net-create vx-net --provider:network_type vxlan --provider:segmentation_id 1500
+openstack network create --provider-network-type vxlan --provider-segment 1500 vx-net
 sleep 5
-neutron subnet-create vx-net 10.100.5.0/24 --name vx-subnet
+openstack subnet create --network vx-net --subnet-range 10.100.5.0/24 vx-subnet
